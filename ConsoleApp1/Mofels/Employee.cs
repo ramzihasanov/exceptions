@@ -11,7 +11,7 @@ namespace ConsoleApp1.Mofels
     {
         private string _fullName;
         private int _experience;
-        private int _departmentNo;
+        private string _departmentNo;
         private int _age;
         private int _salary;
         public int Id { get; } = 0;
@@ -35,7 +35,7 @@ namespace ConsoleApp1.Mofels
         }
 
 
-        public int DepartmentNo
+        public string DepartmentNo
         { get => _departmentNo;
             set
             {
@@ -68,3 +68,5 @@ namespace ConsoleApp1.Mofels
 
     }
 }
+
+
